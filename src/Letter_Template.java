@@ -5,8 +5,8 @@ public class Letter_Template {
         String name = new String();
         System.out.println("Enter your name :");
         Scanner sc = new Scanner(System.in);
-        name=sc.nextLine();
-        System.out.println("Dear "+name+", Thanks a lot");
+        name = sc.nextLine();
+        System.out.println("Dear " + name + ", Thanks a lot");
         System.out.println("Have a good day");
     }
 }
