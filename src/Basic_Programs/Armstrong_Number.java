@@ -8,10 +8,12 @@ public class Armstrong_Number {
         int num;
         System.out.print("Enter integer: ");
         num = sc.nextInt();
+        String snum = num + "";
+        int power = snum.length();
         int temp = num;
         int armstrong = 0;
         while (temp != 0) {
-            armstrong += (int) Math.pow(temp % 10, 3);
+            armstrong += (int) Math.pow(temp % 10, power);
             temp /= 10;
         }
         if (num == armstrong) {
