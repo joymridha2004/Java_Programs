@@ -1,6 +1,6 @@
 package NumberSystem;
 
-public class Bi_to_Oc {
+public class Binary_to_Octal {
     public static void main(String[] args) {
         String num = "100111";
         int Dec = Integer.parseInt(num, 2);
